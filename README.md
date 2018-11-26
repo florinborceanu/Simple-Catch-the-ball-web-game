@@ -1,1 +1,3 @@
-# Simple-Catch-the-ball-web-game
+TODO:
+
+- Scoreboard for "Arrows mode" and "Mouse mode"
