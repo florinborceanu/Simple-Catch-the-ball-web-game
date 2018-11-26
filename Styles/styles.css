@@ -1,0 +1,160 @@
+#menu {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    width: 300px;
+    height: 75px;
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#end-screen ul {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+
+#end-screen li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 75px;
+    color: purple;
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#game {
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    display: none;
+}
+
+#scores {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    display: none;
+}
+
+#scores h1 {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 58px;
+    color: white;
+}
+
+#scores .place {
+    display: block;
+}
+
+#scores ul {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+}
+
+#scores li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 75px;
+    color: purple;
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#end-screen {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+#end-screen h1 {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+}
+
+#end-screen #end-score {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+#timer {
+    position: fixed;
+    font-size: 256px;
+    color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#character {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: none;
+}
+
+#food {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 0 1px 1px black;
+}

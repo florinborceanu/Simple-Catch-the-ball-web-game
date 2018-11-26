@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Runner game</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./Styles/normalize.css">
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li onclick="startArrows()">
+                START (Arrows)
+            </li>
+            <li onclick="startMouse()">
+                START (Mouse)
+            </li>
+            <li onclick="showScores()">
+                SCORES
+            </li>
+
+        </ul>
+    </div>
+    <div id="game">
+        <span id="timer"></span>
+        <span id="food"></span>
+        <span id="character"></span>
+    </div>
+    <div id="end-screen">
+        <h1>
+            GAME OVER!
+        </h1>
+        <span id="end-score"></span>
+        <ul>
+            <li onclick="startArrows()">
+                START (Arrows)
+            </li>
+            <li onclick="startMouse()">
+                START (Mouse)
+            </li>
+            <li onclick="showScores()">
+                SCORES
+            </li>
+        </ul>
+    </div>
+    <div id="scores">
+        <h1>SCORES</h1>
+
+        <span class="place"></span>
+        <span class="place"></span>
+        <span class="place"></span>
+        <span class="place"></span>
+        <span class="place"></span>
+        <ul>
+            <li onclick="goBack()">
+                BACK
+            </li>
+        </ul>
+    </div>
+
+    <script src="./Core/main.js"></script>
+</body>
+
+</html>
